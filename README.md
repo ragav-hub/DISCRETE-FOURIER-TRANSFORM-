@@ -9,7 +9,7 @@ PC installed with SCILAB.
 
 # PROGRAM: 
 // DISCRETE FOURIER TRANSFORM 
-
+```
 clc;
 clear;
 
@@ -69,9 +69,10 @@ plot(freq_index, atan(imag(X), real(X)), 'o-'); // phase = atan2(imag, real)
 xlabel("Frequency index (k)");
 ylabel("Phase (radians)");
 title("Phase Spectrum");
-
+```
 # OUTPUT: 
 <img width="1269" height="674" alt="Screenshot 2025-09-25 200047" src="https://github.com/user-attachments/assets/302632ac-8f62-45b3-94d8-cc1b0e182642" />
+
 
 
 <img width="766" height="581" alt="Screenshot 2025-09-25 200107" src="https://github.com/user-attachments/assets/274ece1f-791b-412e-9d14-4fe529bed60d" />
